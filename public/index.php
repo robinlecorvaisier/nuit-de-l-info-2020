@@ -6,4 +6,4 @@ require "../vendor/autoload.php";
 
 $template = new Engine("templates","phtml");
 
-echo $template->render("home");
+echo $template->render("home",["name" =>"robin"]);
