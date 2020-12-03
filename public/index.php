@@ -1,7 +1,9 @@
 <?php
 
+use League\Plates\Engine;
+
 require "../vendor/autoload.php";
 
-$template = new \League\Plates\Engine("templates","phtml");
+$template = new Engine("templates","phtml");
 
 echo $template->render("home");
