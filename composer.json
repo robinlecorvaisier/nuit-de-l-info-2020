@@ -1,0 +1,23 @@
+{
+    "require" : {
+        "php": "^5.3 | ^7.0",
+        "league/plates": "^3.3",
+        "symfony/web-server-bundle": "4.4"
+    },
+    "require-dev": {
+        "mikey179/vfsstream": "^1.4",
+        "phpunit/phpunit": "~4.0",
+        "squizlabs/php_codesniffer": "~1.5"
+    },
+    "autoload": {
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0-dev"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "serve": "php -S localhost:8000 -t public/"
+    }
+}
