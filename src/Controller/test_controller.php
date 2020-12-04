@@ -5,9 +5,4 @@ $title = "titre";
 $name = "robin";
 $body = "test";
 
-require('./templates/views/layout.phtml');
-/*
-require('./templates/components/header.phtml');
-require('./templates/views/test.phtml');
-require('./templates/components/footer.phtml');
-*/
+require('./templates/layout/layout.phtml');
