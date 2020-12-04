@@ -5,7 +5,7 @@ $controller = $_GET["controller"];
 $route = '../src/Controller/';
 
 $valid_controller = [
-                     "testController",   
+                     "test_controller",   
                     ];
 
 // test validation page
