@@ -127,6 +127,32 @@ footer{
     padding: 10px;
 }
 
+.login {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .login h2 {
+    text-align:left;
+    margin-left: 2rem;
+  }
+  
+  .login input {
+    width: 90%;
+    left : 2rem;
+    border-style: solid;
+    border-color: black;
+    margin: 2rem 0 2rem 4rem;
+  }
+  
+  .login-button {
+    padding: 0.5rem 2rem;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: black;
+    background-color: white;
+  }
+
 @media screen 
 and (max-width: 590px) {
     .welcome > *{

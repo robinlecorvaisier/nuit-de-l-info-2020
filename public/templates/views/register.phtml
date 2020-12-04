@@ -1,0 +1,18 @@
+<?php $this->layout('layout/layout', ["title" => "Inscription"]); ?>
+
+  <div class="login">
+    <form  method="post" action="">
+      <h1>Inscription</h1>
+      <h2>Email</h2>
+      <input type="email" class="form-control" name="email" id="email" required>
+      <h2>Pseudo</h2>
+      <input type="text" class="form-control" name="login" id="login" required>
+      <h2>Mot de passe</h2>
+      <input type="password" class="form-control" name="password" id="password" required>
+      <h2>Confirmez le mot de passe</h2>
+      <input type="password" class="form-control" name="password" id="password" required>
+      <h2>Date de naissance</h2>
+      <input type="date" class="form-control" name="dateNaissance" id="dateNaissance" required>
+      <button type="submit" class="login-button">Connexion</button>
+    </form>
+  </div>
