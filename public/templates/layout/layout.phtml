@@ -14,22 +14,29 @@
 <body onload='"'<?php if(!empty($onload)){echo($onlaod);}?>'"'>
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
   <!-- Links -->
-  <ul class="navbar-nav d-flex align-content-start">
+  <ul class="navbar-nav navbarleft w-50 d-flex align-content-start">
       <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="/?controller=home_controller">
               <img id="iconNavBar" src="../img/logo_moi_content.png">
           </a>
       </li>
-    <li class="nav-item">
+    <li class="nav-item m-0 p-0 ml-5">
       <a class="nav-link" href="#">Link 1</a>
     </li>
-    <li class="nav-item">
+    <li class="nav-item m-0 p-0 ml-5">
       <a class="nav-link" href="#">Link 2</a>
     </li>
-    <li class="nav-item">
+    <li class="nav-item m-0 p-0 ml-5">
       <a class="nav-link" href="#">Link 3</a>
     </li>
   </ul>
+    <ul class="navbar-nav d-flex w-50 justify-content-end align-content-start">
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+                <img id="iconNavBar" src="../img/logo_moi_content.png">
+            </a>
+        </li>
+    </ul>
 </nav>
 <?=require("./templates/views/$body.phtml");?>
 </body>
