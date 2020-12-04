@@ -4,5 +4,6 @@
 
 
 $name = "robin";
-
+require('./templates/components/header.phtml');
 require('./templates/views/test.phtml');
+require('./templates/components/footer.phtml');
