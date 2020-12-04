@@ -5,7 +5,7 @@ $title = "titre";
 $name = "robin";
 $body = "test";
 
-require('./templates/views/layout_test.phtml');
+require('./templates/views/layout.phtml');
 /*
 require('./templates/components/header.phtml');
 require('./templates/views/test.phtml');
