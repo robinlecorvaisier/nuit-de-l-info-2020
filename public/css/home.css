@@ -1,0 +1,20 @@
+.welcome{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: url('../pictures/welcome_background.jpg');
+    background-position: center center;
+}
+
+.preferSpot{
+    width: 100%;
+    padding: 50px;
+}
+
+.favSpot{
+    width: 100%;
+    margin: 20px;
+}
