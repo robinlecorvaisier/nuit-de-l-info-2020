@@ -1,10 +1,13 @@
 <?php
+//
+//require "../vendor/autoload.php";
+//
+//use League\Plates\Engine;
+//$template = new Engine("templates", "phtlm");
+//
+//echo $template->render("viewstest",["name"=>"robin"]);
 
-var_dump('test');
 
-require "vendor/autoload.php";
+$name = "robin";
 
-use League\Plates\Engine;
-$template = new Engine("template", "phtlm");
-
-echo $template->render("test",["name"=>"robin"]);
+require('./templates/views/test.phtml');

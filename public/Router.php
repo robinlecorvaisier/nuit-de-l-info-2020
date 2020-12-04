@@ -2,5 +2,6 @@
 
 $controller = $_GET["controller"];
 
-$route = 'src/Controller/';
-header('Location : ' . $route . $controller);
+$route = '../src/Controller/';
+
+require($route . $controller.'.php');
