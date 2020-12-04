@@ -12,9 +12,14 @@
     <title><?=$title?></title>
 </head>
 <body onload='"'<?php if(!empty($onload)){echo($onlaod);}?>'"'>
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
   <!-- Links -->
-  <ul class="navbar-nav">
+  <ul class="navbar-nav d-flex align-content-start">
+      <li class="nav-item">
+          <a class="nav-link" href="#">
+              <img id="iconNavBar" src="../img/logo_moi_content.png">
+          </a>
+      </li>
     <li class="nav-item">
       <a class="nav-link" href="#">Link 1</a>
     </li>
@@ -31,4 +36,4 @@
 <footer>
 
 </footer>
-
+</html>
