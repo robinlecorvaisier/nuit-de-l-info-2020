@@ -1,3 +1,72 @@
+body{
+    position: absolute;
+    top: 0px;
+    height: 100%;
+}
+
+.welcome{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: url('../img/welcome_background.jpg');
+    background-position: center center;
+}
+
+.preferSpot{
+    width: 100%;
+    padding: 50px;
+}
+
+.favSpot{
+    color: black;
+    width: 100%;
+    margin: 20px;
+}
+
+.favSpot:hover{
+    opacity: 0.6;
+}
+
+.card-img-overlay{
+    overflow: hidden;
+}
+
+.spot{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.searchSpot{
+    width: 50%;
+}
+
+.surfrider{
+    margin: 50px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-image: url('../img/fond_surfRider.jpg');
+    background-position: center center;
+}
+
+.informationAbout{
+    width: 50%;
+    text-align: center;
+}
+
+.copyRightInformationAbout {
+    text-align: center;
+    font-weight: bold;
+}
+
 .containerNav{
     display: flex;
     margin: 0px !important;
@@ -5,35 +74,35 @@
     align-items: center;
     min-width: 100%;
 }
-.navbarleft{
 
+.buttonCollapse{
+    list-style-type: none;
+    width: 100%;
     display: flex;
     align-items: center;
-    font-size: larger;
-    justify-content: start;
+    justify-content: flex-end;
 }
-.navbarrigth{
 
-    display: flex;
-    align-items: center;
-    font-size: larger;
-    justify-content: end;
-}
 .logoNavBar{
     max-height: 100%;
     padding: 10px;
     margin-right: 20px;
 }
+
 .iconUserBar{
     display: flex;
     width: 10%;
     height: auto;
     align-items: center;
 }
+
 .iconUser{
-    min-width: 70%;
+    min-width: 50%;
+    max-width: 50%;
+    padding: 10px;
     height: auto;
 }
+
 .content{
     margin-top: 80px;
     background: rgb(0, 0, 0, 0.04);
@@ -57,29 +126,82 @@ footer{
     max-height: 100%;
     padding: 10px;
 }
-.welcome{
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    background-image: url('../img/welcome_background.jpg');
-    background-position: center center;
-    margin-top: 100px;
+
+@media screen 
+and (max-width: 590px) {
+    .welcome > *{
+        font-size: 20px;
+    }
+
+    .preferSpot > *{
+        font-size: 10px;
+    }
+
+    .card-img-overlay > *{
+        font-size: 10px;
+    }
+    
+    .informationAbout > *{
+        font-size: 10px;
+    }
+
+    .copyRightInformationAbout {
+        font-size: 20px;
+    }
+    .nav-link {
+        font-size: 5px;
+    }
+
+    .iconUser{
+        min-width: 30px !important;
+        max-width: 30px !important;
+    }
+
+    .navbar-brand{
+        font-size: 10px !important;
+    }
+
+    .buttonCollapse{
+        padding: 0px !important;
+    }
 }
 
-.preferSpot{
-    width: 100%;
-    padding: 50px;
-}
+@media screen 
+and (min-width: 590px) 
+and (max-width: 1120px) {
+    .welcome > *{
+        font-size: 25px;
+    }
 
-.favSpot{
-    width: 100%;
-    margin: 20px;
-}
+    .preferSpot > *{
+        font-size: 10px;
+    }
 
-#iconNavBar{
-    width: 40px;
-    height: 40px;
+    .card-img-overlay > *{
+        font-size: 15px;
+    }
+
+    .informationAbout > *{
+        font-size: 10px;
+    }
+
+    .copyRightInformationAbout {
+        font-size: 20px;
+    }
+    .nav-link {
+        font-size: 10px;
+    }
+
+    .iconUser{
+        min-width: 30px !important;
+        max-width: 30px !important;
+    }
+
+    .navbar-brand{
+        font-size: 15px !important;
+    }
+
+    .buttonCollapse{
+        padding: 0px !important;
+    }
 }

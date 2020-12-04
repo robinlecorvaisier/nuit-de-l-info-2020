@@ -1,34 +1,66 @@
-
-
-<body>
 <div class="welcome">
 	<h1>BIENVENUE SUR SURF CONTENT</h1>
 	<p>Choisissez votre spot</p>
 </div>
 
 <div class="preferSpot">
+	<h2 style="text-align: center">Vos spot préférés</h2>
 	<div class="row">
 		<div class="col-8">
 			<div class="card favSpot">
-				<img src="../img/spot_surf_1.jpg" class="card-img-top">
+				<img src="img/spot_surf_1.jpg" class="card-img-top" style="opacity: 0.5;">
 				<div class="card-img-overlay">
+					<h5 class="card-title">Card title</h5>
 					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 				</div>
 			</div>
 		</div>
 		<div class="col-4">
 			<div class="card favSpot">
-				<img src="../img/spot_surf_1.jpg" class="card-img-top">
+				<img src="img/spot_surf_1.jpg" class="card-img-top" style="opacity: 0.5;">
 				<div class="card-img-overlay">
+					<h5 class="card-title">Card title</h5>
 					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 				</div>
 			</div>
 			<div class="card favSpot">
-				<img src="../img/spot_surf_1.jpg" class="card-img-top">
+				<img src="img/spot_surf_1.jpg" class="card-img-top" style="opacity: 0.5;">
 				<div class="card-img-overlay">
+					<h5 class="card-title">Card title</h5>
 					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 				</div>
 			</div>
 		</div>
+	</div>
+</div>
+
+<div class="spot">
+	<form class="searchSpot">
+		<h2 style="text-align: center">Rechercher un spot</h2>
+		<fieldset>
+			<input id="categorieSpot" name="categorieSpot" type="hidden" value="0" />
+			<div class="input-group">
+				<div class="input-group-prepend">
+					<button id="categorieSpot" class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Catégorie</button>
+					<div id="categorieListe" class="dropdown-menu">
+						<a class="dropdown-item" data-valeur="0" href="#">Catégorie</a>
+						<a class="dropdown-item" data-valeur="1" href="#">...</a>
+					</div>
+				</div>
+				<input id="saisie" name="saisie" type="text" class="form-control" aria-label="Saisie de mots clés" placeholder="Mot(s) clé(s)" required="required">
+				<div class="input-group-append">
+					<button class="btn btn-info" type="submit">Recherche</button>
+				</div>
+			</div>
+		</fieldset>
+	</form>
+</div>
+
+<div class="surfrider">
+	<div class="informationAbout">
+		<h1 class="copyRightInformationAbout">Powered by Surfrider ©</h1>
+		<p>Surfrider Foundation Europe est une association loi 1901 qui agit depuis 30 ans pour la préservation des océans et de la santé de ses usagers. 
+			Nous travaillons sur 3 enjeux : les déchets, la qualité des eaux littorales et le changement climatique. </p>
+		<p>Pour visiter le site <a href="https://surfrider.eu/">cliquez ici</a></p>
 	</div>
 </div>
