@@ -15,6 +15,95 @@
 }
 
 .favSpot{
+    color: black;
     width: 100%;
     margin: 20px;
+}
+
+.favSpot:hover{
+    opacity: 0.6;
+}
+
+.card-img-overlay{
+    overflow: hidden;
+}
+
+.spot{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.searchSpot{
+    width: 50%;
+}
+
+.surfrider{
+    margin: 50px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-image: url('../pictures/fond_surfRider.jpg');
+    background-position: center center;
+}
+
+.informationAbout{
+    width: 50%;
+    text-align: center;
+}
+
+.copyRightInformationAbout {
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen 
+and (max-width: 590px) {
+    .welcome > *{
+        font-size: 20px;
+    }
+
+    .preferSpot > *{
+        font-size: 10px;
+    }
+
+    .card-img-overlay > *{
+        font-size: 10px;
+    }
+    
+    .informationAbout > *{
+        font-size: 10px;
+    }
+
+    .copyRightInformationAbout {
+        font-size: 20px;
+    }
+}
+
+@media screen 
+and (min-width: 590px) 
+and (max-width: 1120px) {
+    .welcome > *{
+        font-size: 25px;
+    }
+
+    .preferSpot > *{
+        font-size: 10px;
+    }
+
+    .card-img-overlay > *{
+        font-size: 15px;
+    }
+
+    .informationAbout > *{
+        font-size: 10px;
+    }
+
+    .copyRightInformationAbout {
+        font-size: 20px;
+    }
 }
