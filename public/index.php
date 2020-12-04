@@ -7,6 +7,7 @@ $route = '../src/Controller/';
 $valid_controller = [
     "test_controller",
     "home_controller",
+    "chat_bot_controller",
 ];
 
 // test validation page
