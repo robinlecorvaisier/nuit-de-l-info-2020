@@ -5,7 +5,7 @@ class BddConnectorFactory
 {
     static public function create()
     {
-        $connector = mysqli_connect("localhost", "root", "", "spacegameoddyssey");
+        $connector = mysqli_connect("146.59.204.253", "admin", "moicontent", "surfeur");
 
         if(!$connector){
             echo "erreur connexion base de données";
